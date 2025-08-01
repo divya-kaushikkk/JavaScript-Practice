@@ -4,12 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cart Quantity</title>
+    <style>
+        button{
+            margin-left: 15px;
+            font-size: medium;
+            font-weight: 600;
+        }
+    </style>
 </head>
 <body>
-    <button> Show Quantity< /button>
+    <button onclick='console.log(`Cart Quantity: ${cartQuantity}`);'> Show Quantity </button>    <!-- this $ sign is only used with this ` -->
     <button> Add to cart </button>
     <button> +2 </button>
     <button> +3 </button>
     <button> Reset Cart </button>
 </body>
+
+
+    <script>
+        let cartQuantity = 0;
+
+    </script>
+
 </html>
